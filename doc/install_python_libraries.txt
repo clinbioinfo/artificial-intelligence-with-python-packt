@@ -1,0 +1,11 @@
+cd ~
+sudo apt-get install -y python3-venv
+sudo apt-get install -y python3-pip
+cd ~
+mkdir environments
+cd environments
+python3 -m venv my_env
+source my_env/bin/activate
+pip3 install numpy
+pip3 install scipy
+pip3 install matplotlib
